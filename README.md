@@ -37,7 +37,19 @@ OU
 > php -S localhost:8000 -t public public/index.php
 
 > Resposta: "PHP 7.2.24-0ubuntu0.18.04.7 Development Server started at Fri Oct 23 19:50:52 2020
+
 > Listening on http://localhost:8000 (...)"
+
+
+OU se quiser alterar a porta do servidor:
+
+> php -S localhost:PORTAESCOLHIDA -t public public/index.php
+
+> Resposta: "PHP 7.2.24-0ubuntu0.18.04.7 Development Server started at Fri Oct 23 19:50:52 2020
+
+> Listening on http://localhost:PORTAESCOLHIDA (...)"
+
+Obs.: altere o termo "PORTAESCOLHIDA" para o número da porta que deseja utilizar.
 
 ## E acesse o endereço
 
