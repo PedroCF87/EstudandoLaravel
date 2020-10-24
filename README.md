@@ -8,13 +8,13 @@ Este projeto foi desenvolvido durante o curso de Larvel 5.5 do "[School of Net](
 
 # Índice
 
-1 - [1---instale-o-laravel-5.5.*-(versão-estável)](Instale o Laravel 5.5.* (versão estável))
+1 - [Instale o Laravel 5.5.* (versão estável)](#1---instale-o-laravel-5.5.*-(versão-estável))
 
-2 - [2---clone-este-repositório](2 - Clone este repositório)
+2 - [2 - Clone este repositório](#2---clone-este-repositório)
 
-3 - [3---acesse-a-pasta-do-projeto](3 - Acesse a pasta do projeto)
+3 - [3 - Acesse a pasta do projeto](#3---acesse-a-pasta-do-projeto)
 
-4 - [4---execute-um-dos-comandos-abaixo](4 - Execute UM DOS comandos abaixo)
+4 - [4 - Execute UM DOS comandos abaixo](#4---execute-um-dos-comandos-abaixo)
 
 
 
