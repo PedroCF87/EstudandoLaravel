@@ -9,19 +9,19 @@ Este projeto foi desenvolvido durante o curso de Larvel 5.5 do "[School of Net](
 # Índice
 1. [Rodar o projeto](rodar-o-projeto)
 
-* 1.1 [Instale o Laravel 5.5.* (versão estável)](#1---instale-o-laravel-5.5.*-(versão-estável))
+* 1.1 [Instalar o Laravel 5.5.* (versão estável)](#1.1---instalar-o-laravel-5.5.*-(versão-estável))
 
-* 1.2 [Clone este repositório](#2---clone-este-repositório)
+* 1.2 [Clonar este repositório](#1.2---clonar-este-repositório)
 
-* 1.3 [Acesse a pasta do projeto](#3---acesse-a-pasta-do-projeto)
+* 1.3 [Acessar a pasta do projeto](#1.3---acessar-a-pasta-do-projeto)
 
-* 1.4 [Execute UM DOS comandos abaixo](#4---execute-um-dos-comandos-abaixo)
+* 1.4 [Executar o projeto](#1.4---executar-o-projeto)
 
-* 1.5 [Acesse o endereço](5---acesse-o-endereço)
+* 1.5 [Acessar o endereço](#1.5---acessar-o-endereço)
 
-2. [Controlando o servidor Artisan](2---controlando-o-servidor-artisan)
+2. [Controlar o servidor Artisan](#2---controlar-o-servidor-artisan)
 
-* 2.1 [Passar o Servidor para modo de Manutenção](2.1---passar-o-servidor-para-modo-de-manutenção)
+* 2.1 [Passar o Servidor para modo de Manutenção](#2.1---passar-o-servidor-para-modo-de-manutenção)
 
 * 2.2 [Modo de Manutenção com Mensagem Personalizada*](2.2---modo-de-manutenção-com-mensagem-personalizada*)
 
@@ -32,84 +32,81 @@ Este projeto foi desenvolvido durante o curso de Larvel 5.5 do "[School of Net](
 4. [4 - Anotações](4---anotações)
 
 5. [5 - Rotas do projeto](5---rotas-do-projeto)
-# .
-
-
+#  
+ 
+ 
 ## 1 - Rodar o projeto
-
-### 1.1 - Instale o Laravel 5.5.* (versão estável)
-
+ 
+### 1.1 - Instalar o Laravel 5.5.* (versão estável)
+ 
 Acesse: [Laravel 5.5](https://laravel.com/docs/5.5)
-
-
-### 1.2 - Clone este repositório
-
+ 
+### 1.2 - Clonar este repositório
+ 
 > HTTPS: $ git clone https://github.com/PedroCF87/EstudandoLaravel.git
-
+ 
 OU
-
+ 
 > SSH: $ git clone git@github.com:PedroCF87/EstudandoLaravel.git
-
+ 
 OU
-
+ 
 > GitHub CLI: $ gh repo clone PedroCF87/EstudandoLaravel
-
-
-### 1.3 - Acesse a pasta do projeto
-
+ 
+### 1.3 - Acessar a pasta do projeto
+ 
 > $ cd EstudandoLaravel
-
-
-### 1.4 - Execute UM DOS comandos abaixo
-
+ 
+### 1.4 - Executar o projeto
+#### Execute UM DOS comandos abaixo:
+ 
 > $ php artisan serve
-
+> 
 > Resposta: "Laravel development server started: <http://127.0.0.1:8000> (...)"
-
+ 
 OU
-
+ 
 > $ php -S localhost:8000 -t public public/index.php
-
+> 
 > Resposta: "PHP 7.2.24-0ubuntu0.18.04.7 Development Server started at Fri Oct 23 19:50:52 2020
-
+> 
 > Listening on http://localhost:8000 (...)"
-
-
+ 
+ 
 OU se quiser alterar a porta do servidor:
-
+ 
+ 
 > $ php -S localhost:PORTAESCOLHIDA -t public public/index.php
-
+> 
 > Resposta: "PHP 7.2.24-0ubuntu0.18.04.7 Development Server started at Fri Oct 23 19:50:52 2020
-
+> 
 > Listening on http://localhost:PORTAESCOLHIDA (...)"
-
+ 
 Obs.: altere o termo "PORTAESCOLHIDA" para o número da porta que deseja utilizar.
-
-
-## 1.5 - Acesse o endereço
-
+ 
+## 1.5 - Acessar o endereço
+ 
 > [LocalHost:8000](http://localhost:8000)
-
-
-
-# 2 - Controlando o servidor Artisan
-
+ 
+ 
+# 2 - Controlar o servidor Artisan
+ 
 ## 2.1 - Passar o Servidor para modo de Manutenção
-
+ 
 > $ php artisan down
-
+ 
 ## 2.2 - Modo de Manutenção com Mensagem Personalizada*
 
 > $ php artisan down --message="Minha mensagem personalizada"
-
+ 
 ## *
 Conteúdo extra (não faz parte no presente curso).
-
+ 
 ## 2.3 - Reativar o servidor
 
 > $ php artisan up
-
-
+ 
+ 
 # 3 - Conteúdo abordado no curso
 
 ## Aulas
@@ -136,16 +133,17 @@ Conteúdo extra (não faz parte no presente curso).
 19. [ ] Criar dados > 0:09:46
 20. [ ] Edição de dados > 0:09:08
 21. [ ] Exclusão de dados > 0:07:55
-
-
+ 
+ 
 # 4 - Anotações
+
 > '*' **.env & .env.example:** *são arquivos que armazenam as variáveis de ambiente do Laravel.*
 > 
 > **.env.example** é o arquivo que deve armazenar o exemplo de variáveis globais padrão do projeto.
 > 
 > **.env** é um arquivo pessoal, que deve ser gerado a partir do .env.example e personalizado de acordo com cada ambiente de trabalho.
-
-
+ 
+ 
 # 5 - Rotas do projeto
 
 > $ php artisan route:list
