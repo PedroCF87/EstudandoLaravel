@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/controller/cliente/cadastrar', 'ClientController@cadastrar');
+
+
 Route::get('/Blade', function () {
     $nome = "Pedro Figueira";
     $var1 = "Valor 1";

@@ -63,6 +63,24 @@ Obs.: altere o termo "PORTAESCOLHIDA" para o número da porta que deseja utiliza
 
 
 
+# Controlando o servidor Artisan
+
+## Passar o Servidor para modo de Manutenção
+
+> $ php artisan down
+
+## Modo de Manutenção com Mensagem Personalizada*
+
+> $ php artisan down --message="Minha mensagem personalizada"
+
+## *
+Conteúdo extra (não faz parte no presente curso).
+
+## Reativar o servidor
+
+> $ php artisan up
+
+
 # Conteúdo abordado no curso
 
 ## Aulas
@@ -76,9 +94,9 @@ Obs.: altere o termo "PORTAESCOLHIDA" para o número da porta que deseja utiliza
 7. [x] Iniciando com Blade > ~~0:13:54~~
 8. [x] Mais detalhes sobre a interpolação do Blade > ~~0:11:14~~
 9. [x] Blade - estruturas condicionais e de repetição > ~~0:11:44~~
+10. [x] Ferramenta Artisan > ~~0:06:35~~
+11. [x] Criando controllers > ~~0:13:08~~
 
-10. [ ] Ferramenta Artisan > 0:06:35
-11. [ ] Criando controllers > 0:13:08
 12. [ ] Agrupamento de rotas de boas práticas > 0:08:46
 13. [ ] Ambientes de trabalho e variáveis de ambiente > 0:11:08
 14. [ ] Iniciando com Eloquent ORM > 0:10:54
