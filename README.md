@@ -157,6 +157,7 @@ Conteúdo extra (não faz parte no presente curso).
 
 
 | Domain | Method   | URI                         | Name | Action                                          | Middleware   |
+| ---    |---       |---                          |---   |---                                              |---           |
 | ------ | GET|HEAD | /                           |      | Closure                                         | web          |
 | ------ | GET|HEAD | Blade                       |      | Closure                                         | web          |
 | ------ | GET|HEAD | OlaMundo                    |      | Closure                                         | web          |
