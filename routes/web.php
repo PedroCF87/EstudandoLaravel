@@ -7,8 +7,29 @@ Route::get('/', function () {
 });
 
 
-Route::get('/controller/cliente/cadastrar', 'ClientController@cadastrar');
+Route::group(['prefix' => '/'], function () {
+    Route::get('cliente/cadastrarController', 'ClientController@cadastrar');    
 
+    Route::get('variaveisGlobais', function() {
+        echo "<pre>"; print_r($_ENV); echo "</pre>";
+    });
+
+    Route::get('getEnvPhpNome', function() {
+        echo "<h2>Nome = ".getenv("NOME")."</h2>";
+    });
+
+    Route::get('envLaravelXPTO', function() {
+        echo "<h2>Nome = ".env("XPTO","Variável XPTO não encontrada")."</h2>";
+    });
+});
+
+Route::group(['prefix' => '/admin'], function () {
+    Route::group(['prefix' => '/cliente'], function () {
+        Route::get('cadastrar', 'ClientController@cadastrar');
+        Route::get('editar', 'ClientController@editar');
+        Route::get('excluir', 'ClientController@excluir');
+    });
+});
 
 Route::get('/Blade', function () {
     $nome = "Pedro Figueira";

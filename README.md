@@ -96,9 +96,9 @@ Conteúdo extra (não faz parte no presente curso).
 9. [x] Blade - estruturas condicionais e de repetição > ~~0:11:44~~
 10. [x] Ferramenta Artisan > ~~0:06:35~~
 11. [x] Criando controllers > ~~0:13:08~~
+12. [x] Agrupamento de rotas de boas práticas > ~~0:08:46~~
+13. [x] Ambientes de trabalho e variáveis de ambiente* > ~~0:11:08~~
 
-12. [ ] Agrupamento de rotas de boas práticas > 0:08:46
-13. [ ] Ambientes de trabalho e variáveis de ambiente > 0:11:08
 14. [ ] Iniciando com Eloquent ORM > 0:10:54
 15. [ ] Iniciando com sistema de migrations > 0:11:21
 16. [ ] Prática com sistema de migrações > 0:10:38
@@ -107,3 +107,37 @@ Conteúdo extra (não faz parte no presente curso).
 19. [ ] Criar dados > 0:09:46
 20. [ ] Edição de dados > 0:09:08
 21. [ ] Exclusão de dados > 0:07:55
+
+> '*' **.env & .env.example:** *são arquivos que armazenam as variáveis de ambiente do Laravel.*
+> 
+> **.env.example** é o arquivo que deve armazenar o exemplo de variáveis globais padrão do projeto.
+> 
+> **.env** é um arquivo pessoal, que deve ser gerado a partir do .env.example e personalizado de acordo com cada ambiente de trabalho.
+
+
+# Rotas do projeto 
+
+> $ php artisan route:list
+
++--------+----------+-----------------------------+------+-------------------------------------------------+--------------+
+| Domain | Method   | URI                         | Name | Action                                          | Middleware   |
++--------+----------+-----------------------------+------+-------------------------------------------------+--------------+
+|        | GET|HEAD | /                           |      | Closure                                         | web          |
+|        | GET|HEAD | Blade                       |      | Closure                                         | web          |
+|        | GET|HEAD | OlaMundo                    |      | Closure                                         | web          |
+|        | GET|HEAD | admin/cliente/cadastrar     |      | App\Http\Controllers\ClientController@cadastrar | web          |
+|        | GET|HEAD | admin/cliente/editar        |      | App\Http\Controllers\ClientController@editar    | web          |
+|        | GET|HEAD | admin/cliente/excluir       |      | App\Http\Controllers\ClientController@excluir   | web          |
+|        | GET|HEAD | api/user                    |      | Closure                                         | api,auth:api |
+|        | GET|HEAD | cadastrarCliente            |      | Closure                                         | web          |
+|        | GET|HEAD | cadastrarClienteV2          |      | Closure                                         | web          |
+|        | POST     | cliente/cadastrar           |      | Closure                                         | web          |
+|        | GET|HEAD | cliente/cadastrarController |      | App\Http\Controllers\ClientController@cadastrar | web          |
+|        | GET|HEAD | envLaravelXPTO              |      | Closure                                         | web          |
+|        | GET|HEAD | exemploCadastroHtmlErrado   |      | Closure                                         | web          |
+|        | GET|HEAD | for-if/{value}              |      | Closure                                         | web          |
+|        | GET|HEAD | fornecedor/{id}/{name?}     |      | Closure                                         | web          |
+|        | GET|HEAD | getEnvPhpNome               |      | Closure                                         | web          |
+|        | GET|HEAD | produto/{id}/{name}         |      | Closure                                         | web          |
+|        | GET|HEAD | variaveisGlobais            |      | Closure                                         | web          |
++--------+----------+-----------------------------+------+-------------------------------------------------+--------------+

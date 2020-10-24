@@ -10,10 +10,9 @@ class ClientController extends Controller
         $nome = "Pedro Figueira";
         $var1 = "Valor 1";
     
-        return view('teste')
+        return view('admin.cliente.cadastrar')
         ->with("nome", $nome)
-        ->with("var1", $var1)
-        ->with("teste", "XXXXXXXXXX");
+        ->with("var1", $var1);
     }
     public function editar() {
         // Códigos
