@@ -9,23 +9,23 @@ Este projeto foi desenvolvido durante o curso de Larvel 5.5 do "[School of Net](
 # Índice
 1. [Rodar o projeto](rodar-o-projeto)
 
-* 1.1 [Instalar o Laravel 5.5.* (versão estável)](#1.1---instalar-o-laravel-5.5.*-(versão-estável))
+* 1.1 [Instalar o Laravel 5.5.* (versão estável)](#11---instalar-o-laravel-55-vers%C3%A3o-est%C3%A1vel)
 
-* 1.2 [Clonar este repositório](#1.2---clonar-este-repositório)
+* 1.2 [Clonar este repositório](#12---clonar-este-repositório)
 
-* 1.3 [Acessar a pasta do projeto](#1.3---acessar-a-pasta-do-projeto)
+* 1.3 [Acessar a pasta do projeto](#13---acessar-a-pasta-do-projeto)
 
-* 1.4 [Executar o projeto](#1.4---executar-o-projeto)
+* 1.4 [Executar o projeto](#14---executar-o-projeto)
 
-* 1.5 [Acessar o endereço](#1.5---acessar-o-endereço)
+* 1.5 [Acessar o endereço](#15---acessar-o-endereço)
 
 2. [Controlar o servidor Artisan](#2---controlar-o-servidor-artisan)
 
-* 2.1 [Passar o Servidor para modo de Manutenção](#2.1---passar-o-servidor-para-modo-de-manutenção)
+* 2.1 [Passar o Servidor para modo de Manutenção](#21---passar-o-servidor-para-modo-de-manutenção)
 
-* 2.2 [Modo de Manutenção com Mensagem Personalizada*](2.2---modo-de-manutenção-com-mensagem-personalizada*)
+* 2.2 [Modo de Manutenção com Mensagem Personalizada*](22---modo-de-manutenção-com-mensagem-personalizada*)
 
-* 2.3 [Reativar o servidor](2.3---reativar-o-servidor)
+* 2.3 [Reativar o servidor](23---reativar-o-servidor)
 
 3. [Conteúdo abordado no curso](3---conteúdo-abordado-no-curso) 
 
