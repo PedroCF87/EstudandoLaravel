@@ -131,10 +131,10 @@ Conteúdo extra (não faz parte no presente curso).
 11. [x] Criando controllers > ~~0:13:08~~
 12. [x] Agrupamento de rotas de boas práticas > ~~0:08:46~~
 13. [x] Ambientes de trabalho e variáveis de ambiente* > ~~0:11:08~~
+14. [x] Iniciando com Eloquent ORM > ~~0:10:54~~
+15. [x] Iniciando com sistema de migrations > ~~0:11:21~~
+16. [x] Prática com sistema de migrações > ~~0:10:38~~
 
-14. [ ] Iniciando com Eloquent ORM > 0:10:54
-15. [ ] Iniciando com sistema de migrations > 0:11:21
-16. [ ] Prática com sistema de migrações > 0:10:38
 17. [ ] Prática com Eloquent ORM > 0:11:29
 18. [ ] Listagem de dados > 0:06:05
 19. [ ] Criar dados > 0:09:46
