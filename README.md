@@ -3,7 +3,15 @@ Meu primeiro projeto em Laravel. Neste projeto eu testei as principais funcional
 
 ## Para rodar o projeto
 
-Execute UM DOS comandos abaixo:
+### 1 - Clone este repositório
+
+> HTTPS: $ git clone https://github.com/PedroCF87/EstudandoLaravel.git
+
+> SSH: $ git clone git@github.com:PedroCF87/EstudandoLaravel.git
+
+> GitHub CLI: $ gh repo clone PedroCF87/EstudandoLaravel
+
+### 2 - Execute UM DOS comandos abaixo:
 
 > $ php artisan serve
 
