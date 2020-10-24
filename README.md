@@ -5,7 +5,7 @@ Meu primeiro projeto em Laravel. Neste projeto eu testei as principais funcional
 
 ### 1 - Instale o Laravel 5.5.* (versão estável)
 
-Acesse: [https://laravel.com/docs/5.5](Laravel 5.5)
+Acesse: [Laravel 5.5](https://laravel.com/docs/5.5)
 
 
 ### 2 - Clone este repositório
@@ -36,4 +36,4 @@ OU
 
 ## E acesse o endereço
 
-> [http://localhost:8000](LocalHost:8000)
+> [LocalHost:8000](http://localhost:8000)
