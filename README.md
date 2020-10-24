@@ -157,21 +157,24 @@ Conteúdo extra (não faz parte no presente curso).
 
 | Method   | URI                         | Name | Action                                          | Middleware   |
 |---       |---                          |---   |---                                              |---           |
-| GET|HEAD | /                           |      | Closure                                         | web          |
-| GET|HEAD | Blade                       |      | Closure                                         | web          |
-| GET|HEAD | OlaMundo                    |      | Closure                                         | web          |
-| GET|HEAD | admin/cliente/cadastrar     |      | App\Http\Controllers\ClientController@cadastrar | web          |
-| GET|HEAD | admin/cliente/editar        |      | App\Http\Controllers\ClientController@editar    | web          |
-| GET|HEAD | admin/cliente/excluir       |      | App\Http\Controllers\ClientController@excluir   | web          |
-| GET|HEAD | api/user                    |      | Closure                                         | api,auth:api |
-| GET|HEAD | cadastrarCliente            |      | Closure                                         | web          |
-| GET|HEAD | cadastrarClienteV2          |      | Closure                                         | web          |
-| POST     | cliente/cadastrar           |      | Closure                                         | web          |
-| GET|HEAD | cliente/cadastrarController |      | App\Http\Controllers\ClientController@cadastrar | web          |
-| GET|HEAD | envLaravelXPTO              |      | Closure                                         | web          |
-| GET|HEAD | exemploCadastroHtmlErrado   |      | Closure                                         | web          |
-| GET|HEAD | for-if/{value}              |      | Closure                                         | web          |
-| GET|HEAD | fornecedor/{id}/{name?}     |      | Closure                                         | web          |
-| GET|HEAD | getEnvPhpNome               |      | Closure                                         | web          |
-| GET|HEAD | produto/{id}/{name}         |      | Closure                                         | web          |
-| GET|HEAD | variaveisGlobais            |      | Closure                                         | web          |
+| GET|HEAD | /                              |      | Closure                                             | web          |
+| GET|HEAD | Blade                          |      | Closure                                             | web          |
+| GET|HEAD | OlaMundo                       |      | Closure                                             | web          |
+| POST     | admin/cliente/cadastrar        |      | App\Http\Controllers\ClientController@cadastrar     | web          |
+| POST     | admin/cliente/editar/{id}      |      | App\Http\Controllers\ClientController@editar        | web          |
+| GET|HEAD | admin/cliente/excluir/{id}     |      | App\Http\Controllers\ClientController@excluir       | web          |
+| GET|HEAD | admin/cliente/form-cadastrar   |      | App\Http\Controllers\ClientController@formCadastrar | web          |
+| GET|HEAD | admin/cliente/form-editar/{id} |      | App\Http\Controllers\ClientController@formEditar    | web          |
+| GET|HEAD | admin/cliente/lista            |      | App\Http\Controllers\ClientController@listar        | web          |
+| GET|HEAD | api/user                       |      | Closure                                             | api,auth:api |
+| GET|HEAD | cadastrarCliente               |      | Closure                                             | web          |
+| GET|HEAD | cadastrarClienteV2             |      | Closure                                             | web          |
+| POST     | cliente/cadastrar              |      | Closure                                             | web          |
+| GET|HEAD | cliente/cadastrarController    |      | App\Http\Controllers\ClientController@cadastrar     | web          |
+| GET|HEAD | envLaravelXPTO                 |      | Closure                                             | web          |
+| GET|HEAD | exemploCadastroHtmlErrado      |      | Closure                                             | web          |
+| GET|HEAD | for-if/{value}                 |      | Closure                                             | web          |
+| GET|HEAD | fornecedor/{id}/{name?}        |      | Closure                                             | web          |
+| GET|HEAD | getEnvPhpNome                  |      | Closure                                             | web          |
+| GET|HEAD | produto/{id}/{name}            |      | Closure                                             | web          |
+| GET|HEAD | variaveisGlobais               |      | Closure                                             | web          |
