@@ -26,7 +26,12 @@ OU
 > GitHub CLI: $ gh repo clone PedroCF87/EstudandoLaravel
 
 
-### 3 - Execute UM DOS comandos abaixo:
+### 3 - Acesse a pasta do projeto:
+
+> $ cd EstudandoLaravel
+
+
+### 4 - Execute UM DOS comandos abaixo:
 
 > $ php artisan serve
 
@@ -51,9 +56,11 @@ OU se quiser alterar a porta do servidor:
 
 Obs.: altere o termo "PORTAESCOLHIDA" para o número da porta que deseja utilizar.
 
-## E acesse o endereço
+
+## 5 - Acesse o endereço
 
 > [LocalHost:8000](http://localhost:8000)
+
 
 
 # Conteúdo abordado no curso
