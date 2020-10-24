@@ -1,6 +1,11 @@
 # EstudandoLaravel
 Meu primeiro projeto em Laravel. Neste projeto eu testei as principais funcionalidades do FrameWork.
 
+Este projeto foi desenvolvido durante o curso de Larvel 5.5 do "[School of Net](https://www.schoolofnet.com)".
+
+### Curso [https://www.schoolofnet.com/curso/php/laravel/iniciando-com-laravel-55/](Iniciando com Laravel 5.5).
+
+
 ## Para rodar o projeto
 
 ### 1 - Instale o Laravel 5.5.* (versão estável)
