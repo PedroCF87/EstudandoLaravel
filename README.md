@@ -134,12 +134,11 @@ Conteúdo extra (não faz parte no presente curso).
 14. [x] Iniciando com Eloquent ORM > ~~0:10:54~~
 15. [x] Iniciando com sistema de migrations > ~~0:11:21~~
 16. [x] Prática com sistema de migrações > ~~0:10:38~~
-
-17. [ ] Prática com Eloquent ORM > 0:11:29
-18. [ ] Listagem de dados > 0:06:05
-19. [ ] Criar dados > 0:09:46
-20. [ ] Edição de dados > 0:09:08
-21. [ ] Exclusão de dados > 0:07:55
+17. [x] Prática com Eloquent ORM > ~~0:11:29~~
+18. [x] Listagem de dados > ~~0:06:05~~
+19. [x] Criar dados > ~~0:09:46~~
+20. [x] Edição de dados > ~~0:09:08~~
+21. [x] Exclusão de dados > ~~0:07:55~~
  
  
 # 4 - Anotações

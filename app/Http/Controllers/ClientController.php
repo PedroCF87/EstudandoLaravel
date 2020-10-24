@@ -2,22 +2,50 @@
 
 namespace App\Http\Controllers;
 
+use App\Client;
 use Illuminate\Http\Request;
 
 class ClientController extends Controller
 {
-    public function cadastrar() {
-        $nome = "Pedro Figueira";
-        $var1 = "Valor 1";
+    public function listar() {
+        $clients = Client::all();
+        return view('admin.cliente.list', compact("clients"));
+    }
+    public function formCadastrar() {
+        return view('admin.cliente.create');
+    }
+    public function cadastrar(Request $request) {
+        $cliente = new Client();
+        $cliente->name = $request->name;
+        $cliente->email = $request->email;
+        $cliente->save();
+        return redirect()->to("/admin/cliente/lista");
+    }
+
+    public function formEditar($id) {
+        $cliente = Client::find($id);
+        if (!$cliente) {
+            abort(404);
+        }
+        return view('admin.cliente.edit', compact("cliente"));
+    }
+    public function editar(Request $request, $id) {
+        $cliente = Client::find($id);
+        if (!$cliente) {
+            abort(404);
+        }
+        $cliente->name = $request->name;
+        $cliente->email = $request->email;
+        $cliente->save();
+        return redirect()->to("/admin/cliente/lista");
+    }
     
-        return view('admin.cliente.cadastrar')
-        ->with("nome", $nome)
-        ->with("var1", $var1);
-    }
-    public function editar() {
-        // Códigos
-    }
-    public function excluir() {
-        // Códigos
+    public function excluir(Request $request, $id) {
+        $cliente = Client::find($id);
+        if (!$cliente) {
+            abort(404);
+        }
+        $cliente->delete();
+        return redirect()->to("/admin/cliente/lista");
     }
 }

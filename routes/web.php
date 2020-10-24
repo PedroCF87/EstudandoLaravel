@@ -24,10 +24,18 @@ Route::group(['prefix' => '/'], function () {
 });
 
 Route::group(['prefix' => '/admin'], function () {
+
     Route::group(['prefix' => '/cliente'], function () {
-        Route::get('cadastrar', 'ClientController@cadastrar');
-        Route::get('editar', 'ClientController@editar');
-        Route::get('excluir', 'ClientController@excluir');
+
+        Route::get('lista', 'ClientController@listar');
+
+        Route::get('form-cadastrar', 'ClientController@formCadastrar');
+        Route::post('cadastrar', 'ClientController@cadastrar');
+
+        Route::get('form-editar/{id}', 'ClientController@formEditar');
+        Route::post('editar/{id}', 'ClientController@editar');
+
+        Route::get('excluir/{id}', 'ClientController@excluir');
     });
 });
 
