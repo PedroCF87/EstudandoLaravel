@@ -106,7 +106,7 @@ OU
 
 > $ php artisan down --message="Minha mensagem personalizada"
  
-## *
+#### *
 Conteúdo extra (não faz parte no presente curso).
  
 ## 2.3 - Reativar o servidor
