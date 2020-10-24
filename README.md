@@ -3,15 +3,25 @@ Meu primeiro projeto em Laravel. Neste projeto eu testei as principais funcional
 
 ## Para rodar o projeto
 
-### 1 - Clone este repositório
+### 1 - Instale o Laravel 5.5.* (versão estável)
+
+Acesse: [https://laravel.com/docs/5.5](Laravel 5.5)
+
+
+### 2 - Clone este repositório
 
 > HTTPS: $ git clone https://github.com/PedroCF87/EstudandoLaravel.git
 
+OU
+
 > SSH: $ git clone git@github.com:PedroCF87/EstudandoLaravel.git
+
+OU
 
 > GitHub CLI: $ gh repo clone PedroCF87/EstudandoLaravel
 
-### 2 - Execute UM DOS comandos abaixo:
+
+### 3 - Execute UM DOS comandos abaixo:
 
 > $ php artisan serve
 
@@ -22,7 +32,7 @@ OU
 > php -S localhost:8000 -t public public/index.php
 
 > Resposta: "PHP 7.2.24-0ubuntu0.18.04.7 Development Server started at Fri Oct 23 19:50:52 2020
-Listening on http://localhost:8000 (...)"
+> Listening on http://localhost:8000 (...)"
 
 ## E acesse o endereço
 
