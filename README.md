@@ -70,15 +70,15 @@ Obs.: altere o termo "PORTAESCOLHIDA" para o número da porta que deseja utiliza
 8. [x] Mais detalhes sobre a interpolação do Blade > ~~0:11:14~~
 9. [x] Blade - estruturas condicionais e de repetição > ~~0:11:44~~
 
-10. [] Ferramenta Artisan > 0:06:35
-11. [] Criando controllers > 0:13:08
-12. [] Agrupamento de rotas de boas práticas > 0:08:46
-13. [] Ambientes de trabalho e variáveis de ambiente > 0:11:08
-14. [] Iniciando com Eloquent ORM > 0:10:54
-15. [] Iniciando com sistema de migrations > 0:11:21
-16. [] Prática com sistema de migrações > 0:10:38
-17. [] Prática com Eloquent ORM > 0:11:29
-18. [] Listagem de dados > 0:06:05
-19. [] Criar dados > 0:09:46
-20. [] Edição de dados > 0:09:08
-21. [] Exclusão de dados > 0:07:55
+10. [ ] Ferramenta Artisan > 0:06:35
+11. [ ] Criando controllers > 0:13:08
+12. [ ] Agrupamento de rotas de boas práticas > 0:08:46
+13. [ ] Ambientes de trabalho e variáveis de ambiente > 0:11:08
+14. [ ] Iniciando com Eloquent ORM > 0:10:54
+15. [ ] Iniciando com sistema de migrations > 0:11:21
+16. [ ] Prática com sistema de migrações > 0:10:38
+17. [ ] Prática com Eloquent ORM > 0:11:29
+18. [ ] Listagem de dados > 0:06:05
+19. [ ] Criar dados > 0:09:46
+20. [ ] Edição de dados > 0:09:08
+21. [ ] Exclusão de dados > 0:07:55
