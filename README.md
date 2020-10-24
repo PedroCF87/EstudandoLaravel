@@ -86,8 +86,15 @@ Obs.: altere o termo "PORTAESCOLHIDA" para o número da porta que deseja utiliza
  
 ## 1.5 - Acessar o endereço
  
+> Porta Padrão "8000"
+> 
 > [LocalHost:8000](http://localhost:8000)
- 
+
+OU 
+
+> "PORTAESCOLHIDA":
+> 
+> localhost:PORTAESCOLHIDA
  
 # 2 - Controlar o servidor Artisan
  
