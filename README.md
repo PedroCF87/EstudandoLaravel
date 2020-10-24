@@ -3,7 +3,7 @@ Meu primeiro projeto em Laravel. Neste projeto eu testei as principais funcional
 
 Este projeto foi desenvolvido durante o curso de Larvel 5.5 do "[School of Net](https://www.schoolofnet.com)".
 
-### Curso [https://www.schoolofnet.com/curso/php/laravel/iniciando-com-laravel-55/](Iniciando com Laravel 5.5).
+### Curso [Iniciando com Laravel 5.5](https://www.schoolofnet.com/curso/php/laravel/iniciando-com-laravel-55/).
 
 
 ## Para rodar o projeto
