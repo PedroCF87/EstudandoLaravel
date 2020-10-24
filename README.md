@@ -6,6 +6,18 @@ Este projeto foi desenvolvido durante o curso de Larvel 5.5 do "[School of Net](
 ### Curso [Iniciando com Laravel 5.5](https://www.schoolofnet.com/curso/php/laravel/iniciando-com-laravel-55/).
 
 
+# Índice
+
+1 - [1---instale-o-laravel-5.5.*-(versão-estável)](Instale o Laravel 5.5.* (versão estável))
+
+2 - [2---clone-este-repositório](2 - Clone este repositório)
+
+3 - [3---acesse-a-pasta-do-projeto](3 - Acesse a pasta do projeto)
+
+4 - [4---execute-um-dos-comandos-abaixo](4 - Execute UM DOS comandos abaixo)
+
+
+
 ## Para rodar o projeto
 
 ### 1 - Instale o Laravel 5.5.* (versão estável)
@@ -26,12 +38,12 @@ OU
 > GitHub CLI: $ gh repo clone PedroCF87/EstudandoLaravel
 
 
-### 3 - Acesse a pasta do projeto:
+### 3 - Acesse a pasta do projeto
 
 > $ cd EstudandoLaravel
 
 
-### 4 - Execute UM DOS comandos abaixo:
+### 4 - Execute UM DOS comandos abaixo
 
 > $ php artisan serve
 
